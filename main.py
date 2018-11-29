@@ -1,7 +1,12 @@
 # -*- coding:utf-8 -*-
 
+
+def get_hello_world():
+    return "Hello World!"
+    pass
+
 def main():
-    print "Hello World"
+    print get_hello_world()
     pass
 
 
